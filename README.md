@@ -14,9 +14,9 @@ https://dianakoeswanto.github.io/portfolio/
 
 The following image shows the web application's appearance on larger screens
 
-(./assets/images/outputs/portfolio-web-view.png)
+./assets/images/outputs/portfolio-web-view.png
 
 
 Below image shows the application in smaller screens
-(./assets/images/outputs/portfolio-mobile-view.png)
+./assets/images/outputs/portfolio-mobile-view.png
 
