@@ -27,7 +27,7 @@ h2 {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 250px;
 }
   
 nav a {
@@ -93,6 +93,10 @@ nav a:hover, a:active, a:focus {
 }
 
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
     .container {
         max-width: 720px;
         flex-direction: column;
