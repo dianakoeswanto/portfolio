@@ -5,7 +5,18 @@ A portfolio website containing information about me, my past projects and my con
 This website uses html and css and utilises @media screen to cater for different layouts between different screen sizes.
 
 
-## Deployment Site
-Coming soon
+## Application URL
+
+https://dianakoeswanto.github.io/portfolio/
+
 
 ## Screenshots
+
+The following image shows the web application's appearance on larger screens
+
+(./assets/images/outputs/portfolio-web-view.png)
+
+
+Below image shows the application in smaller screens
+(./assets/images/outputs/portfolio-mobile-view.png)
+
