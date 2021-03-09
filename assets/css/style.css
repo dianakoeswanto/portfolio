@@ -80,20 +80,20 @@ h2#about-me {
     margin-bottom: 1em;
 }
 
-@media (min-width: 992px ) {
+@media screen and (min-width: 992px ) {
     .container {
         flex-direction: row;
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .container {
         max-width: 960px;
         flex-direction: row;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
         flex-direction: column;
     }
