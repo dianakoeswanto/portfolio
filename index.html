@@ -4,23 +4,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Diana Koeswanto</title>
 </head>
 
 <body>
     <!-- Top header -->
     <header>
-            <h1>Diana Koeswanto</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#past-projects">Portfolio</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-light" href="#">Diana Koeswanto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#past-projects">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./assets/DK Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact-me">Contact Me</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -46,41 +62,59 @@
         <section id="past-projects">
             <h3>Latest Works</h3>
             
-            <!-- Main project as biggest image -->
-            <div id="main-project">
-                <figure>
-                    <img id="main-project-image" alt="Horiseon Code Refactor" src="./assets/images/horiseon.png">
-                    <div class="caption">
-                        <figcaption>Horiseon Code Refactor</figcaption>
+            <div class="row pb-4">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="border">
+                        <a href="https://dianakoeswanto.github.io/weather-dashboard/" target="_blank" class="project-container">
+                            <img id="main-project-image" src="./assets/images/weather-dashboard-preview.png" alt="Weather Dashboard" />
+                            <div class="description px-3 py-1">
+                                <h2><strong>Project:</strong><span>&nbsp;Weather Dashboard</span></h2>
+                            </div>
+                        </a>
                     </div>
-                </figure>
+                </div>
             </div>
-
-            <!-- Other projects -->
-            <div id="other-projects">
-                <div class="project-column">
-                    <figure>
-                        <img class="project-image" alt="TBC" src="./assets/images/project-placeholder.jpg">
-                        <div class="caption">
-                            <figcaption>TBC</figcaption>
-                        </div>
-                    </figure>
+            <div class="other-projects justify-content-between d-flex">
+                <div class="col-sm-12 col-md-6 col-xl-4 pb-4">
+                    <div class="border">
+                        <a href="https://dianakoeswanto.github.io/work-day-scheduler/" target="_blank" class="project-container">
+                            <img id="project-image" src="./assets/images/work-day-scheduler.png" alt="Daily Work Scheduler" />
+                            <div class="description px-3 py-1">
+                                <h2><strong>Project:</strong>&nbsp;Work Day Scheduler</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-column">
-                    <figure>
-                        <img class="project-image" alt="TBC" src="./assets/images/project-placeholder.jpg">
-                        <div class="caption">
-                            <figcaption>TBC</figcaption>
-                        </div>
-                    </figure>
+                
+                <div class="col-sm-12 col-md-6 col-xl-4 pb-4">
+                    <div class="border">
+                        <a href="https://dianakoeswanto.github.io/password-generator//" target="_blank" class="project-container">
+                            <img id="project-image" src="./assets/images/pwd-generator.png" alt="Password Generator" />
+                            <div class="description px-3 py-1">
+                                <h2><strong>Project:</strong>&nbsp;Password Generator</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-column">
-                    <figure>
-                        <img class="project-image" alt="TBC" src="./assets/images/project-placeholder.jpg">
-                        <div class="caption">
-                            <figcaption>TBC</figcaption>
-                        </div>
-                    </figure>
+                <div class="col-sm-12 col-md-6 col-xl-4 pb-4">
+                    <div class="border">
+                        <a href="#" target="_blank" class="project-container">
+                            <img id="project-image" src="./assets/images/project-placeholder.jpg" alt="Daily Work Scheduler" />
+                            <div class="description px-3 py-1">
+                                <h2><strong>Project:</strong>&nbsp;Coming Soon</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-4 pb-4">
+                    <div class="border">
+                        <a href="#" target="_blank" class="project-container">
+                            <img id="project-image" src="./assets/images/project-placeholder.jpg" alt="Daily Work Scheduler" />
+                            <div class="description px-3 py-1">
+                                <h2><strong>Project:</strong>&nbsp;Coming Soon</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
        </section>
@@ -92,8 +126,11 @@
         <div class="contact-links">
             <a href="mailto:d.koeswanto@gmail.com" class="btn mailto"><i class="fa fa-envelope"></i></a>
             <a href=https://github.com/dianakoeswanto class="btn github"><i class="fa fa-github-alt"></i></a>
+            <a href=http://www.linkedin.com/in/diana-koeswanto class="btn"><i class="fa fa-linkedin"></i></a>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
