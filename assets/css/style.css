@@ -163,16 +163,6 @@ h3 {
 
 
 /* Footer section */
-#contact-me {
-    max-width: 100%;
-    padding-left: 6%;
-    padding-right: 6%;
-    background-color: rgb(235, 235, 235);
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
-
 .copyright {
     display: flex;
     justify-content: center;
@@ -182,16 +172,11 @@ h3 {
 }
 
 /* Media screen related to footer */
-@media screen and (min-width: 768px) {  
-    #contact-me {
-        flex-direction: row; 
-        justify-content: space-between;
-    }
-
+/* @media screen and (min-width: 768px) {  
     .copyright {
         justify-content: left;
     }
-}
+} */
 
 .contact-links {
     width: 150px;
