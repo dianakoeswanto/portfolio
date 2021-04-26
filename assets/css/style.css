@@ -124,14 +124,14 @@ h2#about-me {
 
 .project-container {
     opacity: 70%;
-    transition: 1s;
+    transition: 0.75s;
     width: 100% !important;
 }
 
 .project-container:hover {
     opacity: 1;
     text-shadow: none;
-    transition: 1.5s;
+    transition: 1.25s;
 }
 
 h2 {
@@ -169,9 +169,7 @@ h3 {
     padding-right: 6%;
     background-color: rgb(235, 235, 235);
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: column; 
-        /* justify-content: space-between; */
     align-items: center;
 }
 
